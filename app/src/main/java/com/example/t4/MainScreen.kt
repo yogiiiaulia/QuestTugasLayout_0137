@@ -1,10 +1,6 @@
 package com.example.t4
 
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.Text
@@ -19,8 +15,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 @Composable
-fun MainScreen() {
-    // Data dummy yang mengambil referensi dari Resource (Tidak ada Hardcode)
+fun MainScreen(modifier: Modifier = Modifier) {
     val students = listOf(
         Student(R.string.mhs1_name, R.string.mhs1_phone, R.string.mhs1_address, R.color.card_gray),
         Student(R.string.mhs2_name, R.string.mhs2_phone, R.string.mhs2_address, R.color.card_purple),
@@ -29,7 +24,7 @@ fun MainScreen() {
     )
 
     Column(
-        modifier = Modifier
+        modifier = modifier // <-- Pakai modifier dari parameter
             .fillMaxSize()
             .padding(16.dp),
         horizontalAlignment = Alignment.CenterHorizontally
@@ -51,11 +46,10 @@ fun MainScreen() {
         )
         Spacer(modifier = Modifier.height(24.dp))
 
-
+        // List Card
         LazyColumn(
             modifier = Modifier.weight(1f)
         ) {
-
             items(students) { student ->
                 StudentCard(student = student)
             }
