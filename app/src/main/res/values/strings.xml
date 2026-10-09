@@ -13,5 +13,8 @@
     <string name="mhs2_phone">085222222</string>
     <string name="mhs2_address">Kasihan, Bantul</string>
 
+    <!-- Data Mahasiswa 3 -->
+    <string name="mhs3_name">jono joestar</string>
+
 
 </resources>
