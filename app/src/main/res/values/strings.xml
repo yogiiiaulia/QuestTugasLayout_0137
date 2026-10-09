@@ -10,5 +10,6 @@
 
     <!-- Data Mahasiswa 2 -->
     <string name="mhs2_name">josep joestar</string>
+    <string name="mhs2_phone">085222222</string>
 
 </resources>
