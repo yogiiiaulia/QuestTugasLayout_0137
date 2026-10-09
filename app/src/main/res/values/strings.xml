@@ -8,4 +8,7 @@
     <string name="mhs1_phone">0854111111</string>
     <string name="mhs1_address">depok, jakarta</string>
 
+    <!-- Data Mahasiswa 2 -->
+    <string name="mhs2_name">josep joestar</string>
+
 </resources>
