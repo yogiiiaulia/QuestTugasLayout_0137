@@ -16,6 +16,7 @@
     <!-- Data Mahasiswa 3 -->
     <string name="mhs3_name">jono joestar</string>
     <string name="mhs3_phone">085436874190</string>
+    <string name="mhs3_address">Depok, Sleman</string>
 
 
 </resources>
