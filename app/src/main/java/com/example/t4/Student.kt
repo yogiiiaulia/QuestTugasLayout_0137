@@ -1,4 +1,4 @@
-package com.example.t4.models
+package com.example.t4
 
 import androidx.annotation.ColorRes
 import androidx.annotation.StringRes
