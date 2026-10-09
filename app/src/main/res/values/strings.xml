@@ -3,4 +3,7 @@
     <string name="app_subtitle">Universitas Muhammadiyah Yogyakarta</string>
     <string name="copyright">Copyright, 2026</string>
 
+    <!-- Data Mahasiswa 1 -->
+    <string name="mhs1_name">dio brando</string>
+
 </resources>
